@@ -1,0 +1,623 @@
+/* font-family: 'Montserrat', sans-serif; */
+/*font-family: 'Open Sans', sans-serif; */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	padding: 0;
+	margin: 0;	
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;		
+}
+
+h3 {
+font-weight: bold;
+font-size: 26px;
+line-height: 32px;
+color: #707070;
+}
+
+.container {
+	width: 1040px;
+	margin: 0 auto;	
+}
+
+header {
+	
+}
+
+/*****  header-top  *****/
+
+.header-top {		
+	background-color: rgba(47, 158, 106, 1);	
+}
+
+.block_1, .block_2, .blocks_head {
+	display: flex;
+}
+
+.block_1, .block_2 {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+.block_2 {
+	margin-left: 88px;	
+}
+
+.phone_city {
+	margin-left: 14px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;	
+}
+
+/*****  menu  *****/
+
+.menu {		
+	font-weight: 700;
+	margin-bottom: 80px;
+}
+
+.menu_out {
+	margin-top: 20px;
+	max-resolution: bottom;: 20px;	
+}
+
+.menu_out img {
+	float: left;
+}
+
+.main-nav {	
+	float: right;
+	margin-top: 13px;		
+}
+
+.main-nav li {
+	display: inline-block;	
+	margin-left: 30px;
+}
+
+.main-nav a {	
+	text-decoration: none; 
+	color: rgba(109, 109, 109, 1);	  
+}
+
+/*****  main_header  *****/
+
+.main_header {
+	background:url(../img/MainAutobus.png) no-repeat; 
+	
+}
+
+ .text_main {
+	padding-top: 80px;
+	padding-bottom: 40px;
+	font-weight: bold;
+	font-size: 55px;
+	line-height: 82px;
+	color: #FFFFFF;
+}
+
+ .text_main_second {
+	font-size: 35px;
+	line-height: 150%;	
+}
+
+.btn {	
+	background-color: #3EA699;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 20px;
+	color: #FFFFFF;	
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width: 210px;
+	padding: 20px 0;	
+	text-decoration: none;
+	transition: all 0.5s ease;	
+	}
+
+
+.btn:hover {
+	background-color: #2F9E6A;
+	border-radius: 15px;
+}
+
+.btn:active {
+	color: black;
+	background-color: #3EA699;	
+  	border-color: #3EA699;
+  	color: rgba(64, 64, 64, 0.3);
+  	border-radius: 20px;
+}
+
+.btn, 
+.btn:active, 
+.btn:focus {
+    outline: none;
+}
+
+.tablet {
+	margin-top: 120px;
+	display: flex;
+	background-color: #FFFFFF;
+	border-radius: 15px;
+	width: 554px;
+	justify-content: space-between;
+	text-align: center;	
+	padding: 17px 35px 20px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tablet_cont {	
+	line-height: 154.18%;
+	color: #2C2C2C;		
+}
+
+input {
+	width: 225px;	
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	border: 1px solid #B7B7B7;
+	border-radius: 10px;
+	height: 48px;
+	padding-left: 25px;		
+}
+
+label {
+	font-size: 14px;
+	line-height: 19px;
+	color: #595959;
+	margin-left: 20px;	
+}
+
+.form_search {		
+	display: flex;
+	margin-top: 5px;	
+	padding: 18px 15px 25px 15px;
+	background-color: white;
+	border-radius: 15px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {	
+	width: 270px;
+}
+
+.form-group img {
+	margin-right: 15px;
+}
+
+.btn_form {	 
+	padding-bottom: 30px;
+	width: 225px;
+	height: 48px;	
+	border: none;
+	cursor: pointer;
+}
+
+/*****  news  *****/
+
+h2 {	
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 37px;
+	color: #707070;
+}
+
+.all_news {
+ 	text-decoration: none;
+ 	color: #4C48A6;
+}
+
+.group_news {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.news_block {
+	width: 240px;
+	height: 380px;
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+
+.headings {
+	display: flex;
+	justify-content: space-between;	
+	margin-top: 80px;	
+}
+
+/*****  bus_rental  *****/
+
+.bus_rental {
+	background-color: #FCFCFC;
+	margin-top: 80px;
+	padding-bottom: 40px;
+}
+
+.bus_rental h2 {
+	padding-top: 30px;
+}
+
+.block_choose_bus {
+	margin-top: 40px;
+	display: flex;		
+}
+
+.choose_bus img {
+	width: 320px;	
+	height: 256px;		
+}
+
+.choose_bus {
+	margin-right: 20px;
+}
+
+.name_bus, .price {
+	font-weight: bold;
+	line-height: 154.18%;	
+}
+
+.name_bus {	
+	font-size: 24px;	
+	padding-bottom: 30px;
+	color: #202020;
+}
+
+.price {		
+	color: #3D3D3D;
+	margin-bottom: 30px;
+}
+
+.price {
+	font-size: 16px;
+	font-style: normal;	
+	line-height: 154.18%;
+}
+
+.first_cell { 	
+ 	color: #2C2C2C;	
+	float: left;	
+	font-weight: normal;
+	margin-right: 80px;
+  }
+
+.second_cell, .second_cell_2 {
+  	font-weight: 600;		
+	color: #818181;	
+  }
+
+.second_cell {
+	padding-right: 25px;
+}
+
+.third_cell {
+	font-weight: 600;
+	font-size: 18px;	
+	color: #202020;
+}
+
+ .table_cell {
+	display: flex;	
+}
+
+.choose_bus button {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	background: #FCFCFC;
+	border: 2px solid #3EA699;	
+	border-radius: 10px;		
+	font-size: 16px;	
+	color: #2C2C2C;
+	height: 53px;
+} 
+
+/*****  why_are_we *****/
+
+.why_are_we h2 {
+	margin-top: 80px;
+}
+
+.why_are_we p {			
+	font-size: 16px;
+	line-height: 154.18%;
+	margin-top: 40px;
+	margin-bottom: 75px;
+}
+
+.reasons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.reson {
+	width: 230px;		
+}
+
+/*****  services *****/
+
+.services {
+	background-color: #FCFCFC;
+	padding-top: 30px;	
+	padding-bottom: 25px;
+	font-size: 16px;
+}
+
+.headings_2 {
+	display: flex;
+	justify-content: space-between;	
+	padding-bottom: 35px;
+}
+
+.reson_img {
+	padding-bottom: 30px;
+}
+
+/*****  reviews *****/
+
+.reviews {
+	margin-top: 80px;
+}
+
+.rev_bl, .rev_bl_text {
+	display: flex;
+	justify-content: space-between;	
+}
+
+.rev_bl_part {
+	margin-right: 30px;
+	background: #F8F8F8;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	width: 33%;
+}
+
+.rev_bl_part:last-child {
+	margin-right: 0;
+}
+
+.rev_bl_text {	
+	padding: 35px 15px 50px;
+	font-size: 16px;
+}
+
+.rev_bl_text_2 {
+	padding: 35px 15px 40px;
+	color: #2C2C2C;	
+}
+
+/*****  Our_partners *****/
+
+.Our_partners {
+	background-color: #FCFCFC;
+	margin-top: 80px;
+	padding-bottom: 50px;
+}
+
+.Our_partners h2 {
+	padding-top: 30px;
+	padding-bottom: 20px;	
+}
+
+.partners {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 60px;
+}
+
+.trust {
+	margin-top: 20px;
+}
+
+footer {
+	background-color: #2F9E6A;
+	margin-top: 100px;
+	color: #FFFFFF;	
+		font-weight: bold;
+	line-height: 19px;
+	color: #FFFFFF;		
+}
+
+.ul_foot {	
+	text-decoration: none;	
+	list-style: none;
+}
+
+.ul_foot a {	
+	text-decoration: none;
+	color: #FFFFFF;	
+		
+}
+
+.ul_foot li {	
+		margin-bottom: 20px;
+}
+
+
+.foot {
+	display: flex;
+	padding-top: 40px;	
+}
+
+.right_foot {
+	margin-left: 100px;
+}
+
+.right_foot p {
+	margin-bottom: 20px;
+}
+
+/*
+
+
+
+.trip_img {
+	padding-top: 20px;	
+}
+
+.green {
+	color:  green;
+}
+
+.section_tittle {
+	text-align: center;	
+	font-size: 30px;
+	padding-bottom: 72px;
+}
+
+.future {
+	padding-top: 108px;
+	padding-bottom: 110px;
+	color: #201b2d;
+}
+
+.opportunity {
+	width: 300px;	
+}
+
+.opport_title {
+	font-size: 19px;	
+}
+
+.opportunity p {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.opport_value {
+	width: 315px;
+}
+
+.opportunity img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 27px;
+}
+
+.opportunity p, .opport_title {
+	text-align: center;
+}
+
+.contacts {
+	background-color: #ecf3f8;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.contacts h2 {
+	color: #201b2d;
+}
+
+input {
+	width: 340px;
+	border: 1px solid #bbbbbb;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	border-radius: ;
+	height: 45px;
+	padding-left: 23px;
+	margin-bottom: 15px;	
+}
+
+.form {
+	width: 350px;	
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn_form {
+	width: 340px;
+	cursor: pointer;
+	border: none;
+}
+
+footer {
+	background-color: #164d7a;	
+	padding: 60px 0;
+	text-align: center;
+}
+
+.credits {
+    font-size: 14px;
+	color: white;
+}
+
+/*Responsive*/
+
+/* 992px - 1200px 
+@media screen and (max-width: 1200px) {
+	.container {
+	width: 960px;
+	}
+
+	p {
+		width: auto;
+	}
+}
+
+/* 768px - 992px 
+@media screen and (max-width: 992px) {
+.container {
+	width: 720px;		
+	}
+
+.wrapper {
+	flex-direction: column;	
+	}
+
+.offer {   
+	width: auto;
+    margin-top: 40px;
+}
+
+.opportunities {
+	flex-direction: column;
+}
+
+.opportunity {
+    width: auto; 
+}
+
+}
+
+/* 576px - 768px 
+@media screen and (max-width: 768px) {
+.container {
+		width: 540px;
+	}
+}
+
+/* 320px - 576px 
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+
+	.trip_img {
+    width: 100%;
+    height: 100%;
+}
+
+input, .btn {
+	width: 90%;
+}
+}
